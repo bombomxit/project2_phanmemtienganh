@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.addEditDelete.ControllerDelete">
+    <children>
+        <Button fx:id="buttonBack" layoutX="624.0" layoutY="529.0" mnemonicParsing="false" onAction="#onBack"
+                prefHeight="31.0" prefWidth="132.0" text="Back"/>
+        <TextField fx:id="tienganh" layoutX="291.0" layoutY="143.0"/>
+        <TextField fx:id="tiengviet" layoutX="291.0" layoutY="199.0"/>
+        <TextField fx:id="typeOfWord" layoutX="291.0" layoutY="257.0"/>
+        <TextField fx:id="hashTag" layoutX="291.0" layoutY="322.0"/>
+        <Button layoutX="108.0" layoutY="143.0" mnemonicParsing="false" text="Tiếng anh"/>
+        <Button layoutX="108.0" layoutY="199.0" mnemonicParsing="false" text="Tiếng Việt"/>
+        <Button layoutX="108.0" layoutY="257.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="87.0"
+                text="Loại từ"/>
+        <Button layoutX="110.0" layoutY="322.0" mnemonicParsing="false" text="Hash Tag"/>
+        <TextField fx:id="goiy" layoutX="291.0" layoutY="380.0"/>
+        <Button layoutX="111.0" layoutY="386.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0"
+                text="Gợi ý"/>
+        <Button fx:id="buttonDelete" layoutX="203.0" layoutY="529.0" mnemonicParsing="false" onAction="#onDelete"
+                prefHeight="31.0" prefWidth="95.0" text="Delete"/>
+    </children>
+</AnchorPane>

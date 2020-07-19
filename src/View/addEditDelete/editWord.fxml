@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="727.0" prefWidth="1403.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addEditDelete.ControllerEdit">
+    <children>
+        <Button layoutX="714.0" layoutY="590.0" mnemonicParsing="false" onAction="#onBack" prefHeight="51.0" prefWidth="125.0" text="Back" />
+        <Button layoutX="79.0" layoutY="84.0" mnemonicParsing="false" text="Tiếng Anh" />
+        <Button layoutX="79.0" layoutY="142.0" mnemonicParsing="false" text="Tiếng Việt" />
+        <Button layoutX="79.0" layoutY="197.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="Phát âm" />
+        <Button layoutX="79.0" layoutY="259.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="87.0" text="Loại từ" />
+        <Button layoutX="79.0" layoutY="317.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="Ngày" />
+        <Button layoutX="79.0" layoutY="378.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="Hashtag" />
+        <Button layoutX="79.0" layoutY="439.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="87.0" text="gợi ý" />
+        <TextField fx:id="txtWordEn" layoutX="235.0" layoutY="84.0" />
+        <TextField fx:id="txtWordVi" layoutX="235.0" layoutY="142.0" />
+        <TextField fx:id="txtSpelling" layoutX="235.0" layoutY="197.0" />
+        <TextField fx:id="txtTypeOfWord" layoutX="235.0" layoutY="259.0" />
+        <TextField fx:id="txtDate" layoutX="235.0" layoutY="317.0" />
+        <TextField fx:id="txtHashtag" layoutX="235.0" layoutY="378.0" />
+        <TextField fx:id="txtGoiy" layoutX="235.0" layoutY="439.0" />
+      <Button layoutX="480.0" layoutY="590.0" mnemonicParsing="false" onAction="#setbtnupdate" prefHeight="51.0" prefWidth="125.0" text="Update" />
+      <TableView fx:id="tableView" layoutX="444.0" layoutY="44.0" prefHeight="413.0" prefWidth="862.0">
+        <columns>
+          <TableColumn fx:id="c_tienganh" prefWidth="95.0" text="Tiếng Anh" />
+          <TableColumn fx:id="c_tiengviet" prefWidth="95.0" text="Tiếng Việt" />
+            <TableColumn fx:id="c_phatam" prefWidth="95.0" text="LinkImg" />
+            <TableColumn fx:id="c_loaitu" prefWidth="95.0" text="LinkMp3" />
+            <TableColumn fx:id="c_ngay" prefWidth="95.0" text="phát âm" />
+            <TableColumn fx:id="c_goiy" prefWidth="95.0" text="loại từ" />
+            <TableColumn fx:id="c_linkmp3" prefWidth="95.0" text="ngày" />
+            <TableColumn fx:id="c_linkimg" prefWidth="95.0" text="Hashtag" />
+            <TableColumn fx:id="c_hashtag" prefWidth="101.0" text="gợi ý" />
+        </columns>
+      </TableView>
+      <Button layoutX="79.0" layoutY="501.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="LinkImage" />
+      <TextField fx:id="txtLinkImg" layoutX="235.0" layoutY="501.0" />
+      <Button layoutX="79.0" layoutY="565.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="LinkMp3" />
+      <TextField fx:id="txtLinkMp3" layoutX="235.0" layoutY="565.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button layoutX="714.0" layoutY="501.0" mnemonicParsing="false" onAction="#setbtnDelete" prefHeight="51.0" prefWidth="125.0" text="Delete" />
+      <Button fx:id="buttonAdd" layoutX="480.0" layoutY="501.0" mnemonicParsing="false" onAction="#setbtnAdd" prefHeight="51.0" prefWidth="125.0" text="Add" />
+      <Button layoutX="198.0" layoutY="501.0" mnemonicParsing="false" onAction="#setButtonChonTepAnh" prefHeight="31.0" prefWidth="21.0" text="chọn tệp" />
+      <Button layoutX="198.0" layoutY="565.0" mnemonicParsing="false" onAction="#setButtonChonTepMp3" prefHeight="31.0" prefWidth="21.0" text="chọn tệp" />
+      <ImageView fx:id="imageView" fitHeight="213.0" fitWidth="359.0" layoutX="947.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="235.0" layoutY="626.0" mnemonicParsing="false" onAction="#onBtnListien" text="Nghe thử" />
+    </children>
+</AnchorPane>

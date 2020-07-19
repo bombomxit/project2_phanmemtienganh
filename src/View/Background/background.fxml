@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+      prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controller.Controller">
+    <opaqueInsets>
+        <Insets top="40.0"/>
+    </opaqueInsets>
+    <children>
+        <Button fx:id="btnVaoHoc" layoutX="260.0" layoutY="80.0" mnemonicParsing="false" onAction="#onEnglishFighter"
+                prefHeight="78.0" prefWidth="280.0" text="Vào học ">
+            <font>
+                <Font size="25.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnaddEditDelete" layoutX="260.0" layoutY="189.0" mnemonicParsing="false"
+                onAction="#onAddEditDelete" prefHeight="78.0" prefWidth="280.0" text="Thêm/Sửa/Xóa">
+            <font>
+                <Font size="25.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnTutorial" layoutX="260.0" layoutY="300.0" mnemonicParsing="false" onAction="#onTutorial"
+                prefHeight="78.0" prefWidth="280.0" text="Hướng dẫn">
+            <font>
+                <Font size="25.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnThoat" layoutX="260.0" layoutY="409.0" mnemonicParsing="false" onAction="#onQuit"
+                prefHeight="78.0" prefWidth="280.0" text="Thoát">
+            <font>
+                <Font size="25.0"/>
+            </font>
+        </Button>
+    </children>
+</Pane>

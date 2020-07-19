@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addEditDelete.ControllerListWord">
+    <children>
+        <Button layoutX="660.0" layoutY="555.0" mnemonicParsing="false" onAction="#onBack" prefHeight="31.0" prefWidth="132.0" text="Back" />
+        <TableView fx:id="tableView" layoutY="84.0" prefHeight="458.0" prefWidth="1190.0">
+            <columns>
+                <TableColumn fx:id="c_tienganh" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Tiếng Anh" />
+                <TableColumn fx:id="c_tiengviet" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Tiếng Việt" />
+                <TableColumn fx:id="c_phatam" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Phát âm" />
+                <TableColumn fx:id="c_loaitu" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Loại Từ" />
+                <TableColumn fx:id="c_ngay" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Ngày" />
+                <TableColumn fx:id="c_hashtag" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Hashtag" />
+                <TableColumn fx:id="c_goiy" maxWidth="1.7976931348623157E308" prefWidth="170.0" text="Gợi ý" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

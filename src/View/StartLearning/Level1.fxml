@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.vaoHoc.ControllerLevel1">
+    <children>
+        <Button layoutX="624.0" layoutY="529.0" mnemonicParsing="false" onAction="#onBack" prefHeight="31.0" prefWidth="132.0" text="Back" />
+        <TextField fx:id="txtBegin" layoutX="158.0" layoutY="53.0" prefHeight="31.0" prefWidth="35.0" />
+        <TextField fx:id="txtBetWeen" layoutX="205.0" layoutY="53.0" />
+        <TextField fx:id="txtEnd" layoutX="400.0" layoutY="53.0" prefHeight="31.0" prefWidth="35.0" />
+        <ImageView fx:id="imageView" fitHeight="333.0" fitWidth="307.0" layoutX="469.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+        <TextArea fx:id="textArea" layoutX="56.0" layoutY="146.0" prefHeight="354.0" prefWidth="362.0" />
+        <Button layoutX="579.0" layoutY="53.0" mnemonicParsing="false" onAction="#onBtnSubmit" prefHeight="44.0" prefWidth="132.0" text="Submit" />
+        <Button layoutX="469.0" layoutY="53.0" mnemonicParsing="false" onAction="#onBtnListien" prefHeight="31.0" prefWidth="90.0" text="Nghe thử" />
+        <Button layoutX="466.0" layoutY="529.0" mnemonicParsing="false" onAction="#onGoiy1" prefHeight="31.0" prefWidth="113.0" text="gợi ý 1" />
+        <Button layoutX="305.0" layoutY="529.0" mnemonicParsing="false" onAction="#onGoiy4" prefHeight="31.0" prefWidth="113.0" text="gợi ý 2" />
+    </children>
+</Pane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.addEditDelete.ControllerAddEditDelete">
+    <children>
+        <Button fx:id="buttonAdd" layoutX="294.0" layoutY="108.0" mnemonicParsing="false" onAction="#onAdd"
+                prefHeight="56.0" prefWidth="214.0" text="Thêm"/>
+        <Button fx:id="buttonEdit" layoutX="293.0" layoutY="225.0" mnemonicParsing="false" prefHeight="49.0"
+                prefWidth="214.0" text="Sửa"/>
+        <Button fx:id="buttonDelete" layoutX="275.0" layoutY="330.0" mnemonicParsing="false" prefHeight="49.0"
+                prefWidth="207.0" text="Xóa"/>
+        <Button layoutX="624.0" layoutY="529.0" mnemonicParsing="false" onAction="#onBack" prefHeight="31.0"
+                prefWidth="132.0" text="Back"/>
+    </children>
+</AnchorPane>
